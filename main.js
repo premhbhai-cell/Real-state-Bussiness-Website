@@ -553,3 +553,29 @@ let url="https://wa.me/918130112531?text="+encodeURIComponent(message);
 window.open(url,"_blank");
 
 }
+
+// contact form with map
+
+document.getElementById("whatsappForm").addEventListener("submit", function(e){
+
+e.preventDefault();
+
+var name=document.getElementById("name").value;
+var phone=document.getElementById("phone").value;
+var email=document.getElementById("email").value;
+var service=document.getElementById("service").value;
+var message=document.getElementById("message").value;
+
+var text="New Property Inquiry%0A%0A"
++"Name: "+name+"%0A"
++"Phone: "+phone+"%0A"
++"Email: "+email+"%0A"
++"Service: "+service+"%0A"
++"Message: "+message;
+
+var whatsapp="https://wa.me/919876543210?text="+text;
+
+window.open(whatsapp,"_blank");
+
+});
+
