@@ -386,6 +386,76 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   </div>
 </section>
 
+<!-- Emi calculater -->
+ <section class="emi-section">
+
+<div class="emi-container">
+
+<div class="emi-left">
+
+<p class="tag">PLAN YOUR INVESTMENT</p>
+<h2>EMI Calculator</h2>
+<p class="desc">
+Calculate your monthly EMI easily with our smart calculator.
+</p>
+
+
+<div class="input-group">
+<label>Property Price: ₹ <span id="priceVal">5000000</span></label>
+<input type="range" id="price" min="500000" max="20000000" step="50000" value="5000000">
+</div>
+
+
+<div class="input-group">
+<label>Down Payment: ₹ <span id="downVal">500000</span></label>
+<input type="range" id="downpayment" min="0" max="5000000" step="50000" value="500000">
+</div>
+
+
+<div class="input-group">
+<label>Interest Rate: <span id="rateVal">8.5</span>%</label>
+<input type="range" id="rate" min="5" max="15" step="0.1" value="8.5">
+</div>
+
+
+<div class="input-group">
+<label>Tenure: <span id="tenureVal">20</span> Years</label>
+<input type="range" id="tenure" min="1" max="30" value="20">
+</div>
+
+</div>
+
+
+<div class="emi-right">
+
+<h4>Monthly EMI</h4>
+
+<h1 id="emi">₹0</h1>
+
+<div class="emi-details">
+
+<div>
+<p>Total Interest</p>
+<h3 id="interest">₹0</h3>
+</div>
+
+<div>
+<p>Total Payment</p>
+<h3 id="payment">₹0</h3>
+</div>
+
+</div>
+
+<button class="emi-btn">Check Eligibility</button>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="emi.js"></script>
+
     <!-- Value Section -->
     <section id="value" class="value-section">
       <div class="container">

@@ -579,3 +579,43 @@ window.open(whatsapp,"_blank");
 
 });
 
+// emi calculater
+let price=document.getElementById("price")
+let down=document.getElementById("downpayment")
+let rate=document.getElementById("rate")
+let tenure=document.getElementById("tenure")
+
+function calculateEMI(){
+
+let propertyPrice=parseFloat(price.value)
+let downPayment=parseFloat(down.value)
+let loanAmount=propertyPrice-downPayment
+
+let interestRate=parseFloat(rate.value)/12/100
+let months=parseFloat(tenure.value)*12
+
+let emi=(loanAmount*interestRate*Math.pow(1+interestRate,months))/
+(Math.pow(1+interestRate,months)-1)
+
+let totalPayment=emi*months
+let totalInterest=totalPayment-loanAmount
+
+document.getElementById("emi").innerHTML="₹"+Math.round(emi).toLocaleString()
+
+document.getElementById("interest").innerHTML="₹"+Math.round(totalInterest).toLocaleString()
+
+document.getElementById("payment").innerHTML="₹"+Math.round(totalPayment).toLocaleString()
+
+document.getElementById("priceVal").innerHTML=propertyPrice.toLocaleString()
+document.getElementById("downVal").innerHTML=downPayment.toLocaleString()
+document.getElementById("rateVal").innerHTML=rate.value
+document.getElementById("tenureVal").innerHTML=tenure.value
+
+}
+
+price.oninput=calculateEMI
+down.oninput=calculateEMI
+rate.oninput=calculateEMI
+tenure.oninput=calculateEMI
+
+calculateEMI()
