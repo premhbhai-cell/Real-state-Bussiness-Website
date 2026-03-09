@@ -52,7 +52,7 @@ html {
   backdrop-filter: blur(20px) saturate(180%);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
   z-index: 1000;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navbar.scrolled {
@@ -65,7 +65,7 @@ html {
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
-  transition: padding 0.3s ease;
+  transition: padding 0.1s ease;
 }
 
 .navbar.scrolled .nav-wrapper {
@@ -80,7 +80,7 @@ html {
   font-weight: 800;
   color: var(--text-dark);
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.1s ease;
 }
 
 .logo:hover {
@@ -89,7 +89,7 @@ html {
 
 .logo-icon {
   color: var(--primary-color);
-  transition: transform 0.3s ease;
+  transition: transform 0.1s ease;
 }
 
 .logo:hover .logo-icon {
@@ -108,7 +108,7 @@ html {
   color: var(--text-gray);
   font-weight: 500;
   font-size: 15px;
-  transition: color 0.3s ease;
+  transition: color 0.1s ease;
   position: relative;
   padding: 8px 0;
 }
@@ -122,7 +122,7 @@ html {
   height: 2px;
   background: var(--primary-color);
   transform: scaleX(0);
-  transition: transform 0.3s ease;
+  transition: transform 0.1s ease;
 }
 
 .nav-link:hover,
@@ -158,7 +158,7 @@ html {
   width: 100%;
   height: 100%;
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-  transition: left 0.5s ease;
+  transition: left 0.2s ease;
 }
 
 .btn-primary:hover::before {
@@ -182,7 +182,7 @@ html {
   border: none;
   cursor: pointer;
   padding: 8px;
-  transition: transform 0.3s ease;
+  transition: transform 0.1s ease;
 }
 
 .mobile-menu-btn:hover {
@@ -194,7 +194,7 @@ html {
   height: 3px;
   background: var(--text-dark);
   border-radius: 2px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu-btn.active span:nth-child(1) {
@@ -365,7 +365,7 @@ html {
   border-radius: 12px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -449,7 +449,7 @@ html {
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 0.5s ease;
+  transition: transform 0.2s ease;
 }
 
 .hero-image-wrapper:hover img {
@@ -665,7 +665,7 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .residence-card:hover .residence-image img {
@@ -807,7 +807,7 @@ html {
   font-weight: 700;
   font-size: 16px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   display: inline-flex;
   align-items: center;
   gap: 12px;
@@ -904,7 +904,7 @@ html {
   border: 2px solid var(--border-color);
   border-radius: 16px;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 
 .value-item:hover {
@@ -931,7 +931,7 @@ html {
   justify-content: center;
   color: var(--primary-color);
   flex-shrink: 0;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 
 .value-item:hover .value-icon {
@@ -958,7 +958,7 @@ html {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   color: var(--text-gray);
   flex-shrink: 0;
 }
@@ -977,7 +977,7 @@ html {
 .value-item-content {
   max-height: 0;
   overflow: hidden;
-  transition: all 0.4s ease;
+  transition: all 0.1s ease;
   padding: 0 24px;
 }
 
@@ -1008,7 +1008,7 @@ html {
   padding: 36px;
   border-radius: 24px;
   box-shadow: var(--shadow-md);
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   border: 2px solid transparent;
 }
 
@@ -1111,7 +1111,7 @@ html {
   padding: 28px;
   border-radius: 20px;
   border: 2px solid transparent;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   cursor: pointer;
 }
 
@@ -1132,7 +1132,7 @@ html {
   justify-content: center;
   color: var(--primary-color);
   margin-bottom: 16px;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 
 .contact-method:hover .contact-method-icon {
@@ -1163,7 +1163,7 @@ html {
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   width: 100%;
 }
 
@@ -1242,7 +1242,7 @@ html {
   backdrop-filter: blur(10px);
   color: white;
   outline: none;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 
 .cta-form input::placeholder {
@@ -1311,7 +1311,7 @@ html {
   align-items: center;
   justify-content: center;
   color: white;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 
 .footer-social a:hover {
@@ -1330,7 +1330,7 @@ html {
 .footer-column ul li a {
   color: var(--text-light);
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   display: inline-block;
 }
 
@@ -1364,7 +1364,7 @@ html {
   justify-content: center;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   z-index: 999;
 }
 
@@ -1525,17 +1525,6 @@ background: blue;
 }
 
 /* our servicess  */
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-background:#f5f7fb;
-}
-
 .services{
 padding:80px 20px;
 text-align:center;
