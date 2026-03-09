@@ -519,3 +519,37 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log('%cBuilt with modern web technologies', 'color: #64748b; font-size: 14px;');
   console.log('%cAll interactions and animations are working perfectly!', 'color: #10b981; font-size: 14px;');
 });
+
+
+// propert buttom 
+  function sendDetails(btn){
+
+let card = btn.closest(".residence-card");
+
+let name = card.querySelector(".residence-name").innerText;
+let price = card.querySelector(".residence-price").innerText;
+let location = card.querySelector(".residence-location").innerText;
+
+let features = card.querySelectorAll(".feature");
+
+let beds = features[0].innerText;
+let baths = features[1].innerText;
+let area = features[2].innerText;
+
+let message =
+`Hello,
+Mujhe is property me interest hai.
+
+Property: ${name}
+Price: ${price}
+Location: ${location}
+
+Features: ${beds}, ${baths}, ${area}
+
+Please price, downpayment aur full details bhejiye.`;
+
+let url="https://wa.me/918130112531?text="+encodeURIComponent(message);
+
+window.open(url,"_blank");
+
+}

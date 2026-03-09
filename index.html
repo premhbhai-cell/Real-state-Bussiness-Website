@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ 
+</head>
   <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -141,195 +143,246 @@
     </section>
 
     <!-- Residences Section -->
-    <section id="residences" class="residences">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-header-content">
-            <span class="section-label">
-              <span class="label-line"></span>
-              BEST CHOICE
-            </span>
-            <h2 class="section-title">Popular Residences</h2>
-            <p class="section-description">Explore our handpicked selection of premium properties in prime locations</p>
-          </div>
-          <div class="filter-buttons">
-            <button class="filter-btn active" data-filter="all">All Properties</button>
-            <button class="filter-btn" data-filter="villa">Villas</button>
-            <button class="filter-btn" data-filter="apartment">Apartments</button>
-            <button class="filter-btn" data-filter="penthouse">Penthouses</button>
-          </div>
-        </div>
+    <!-- Residences Section -->
 
-        <div class="residences-grid">
-          <div class="residence-card" data-category="villa">
-            <div class="residence-image">
-              <img src="https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Private Garden">
-              <div class="residence-badge">Featured</div>
-              <button class="residence-favorite">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M10 17.5l-6.5-6.5a4.5 4.5 0 1 1 6.5-6.5 4.5 4.5 0 1 1 6.5 6.5L10 17.5z" stroke="currentColor" stroke-width="2"/>
-                </svg>
-              </button>
-            </div>
-            <div class="residence-info">
-              <div class="residence-header">
-                <div>
-                  <div class="residence-price">$847,043</div>
-                  <h3 class="residence-name">Aliva Private Garden</h3>
-                </div>
-                <div class="residence-rating">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                    <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
-                  </svg>
-                  <span>4.8</span>
-                </div>
-              </div>
-              <p class="residence-location">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M7 1a4 4 0 0 1 4 4c0 3-4 8-4 8S3 8 3 5a4 4 0 0 1 4-4z" stroke="currentColor" stroke-width="1.5"/>
-                  <circle cx="7" cy="5" r="1.5" fill="currentColor"/>
-                </svg>
-                Miraflores, Lima - Peru
-              </p>
-              <div class="residence-features">
-                <span class="feature">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <rect x="2" y="2" width="12" height="12" stroke="currentColor" stroke-width="1.5"/>
-                  </svg>
-                  4 Beds
-                </span>
-                <span class="feature">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
-                  </svg>
-                  3 Baths
-                </span>
-                <span class="feature">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M2 2h12v12H2z" stroke="currentColor" stroke-width="1.5"/>
-                  </svg>
-                  2,400 sqft
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div class="residence-card" data-category="apartment">
-            <div class="residence-image">
-              <img src="https://images.pexels.com/photos/2581922/pexels-photo-2581922.jpeg?auto=compress&cs=tinysrgb&w=800" alt="City Asset">
-              <div class="residence-badge special">Hot Deal</div>
-              <button class="residence-favorite">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M10 17.5l-6.5-6.5a4.5 4.5 0 1 1 6.5-6.5 4.5 4.5 0 1 1 6.5 6.5L10 17.5z" stroke="currentColor" stroke-width="2"/>
-                </svg>
-              </button>
-            </div>
-            <div class="residence-info">
-              <div class="residence-header">
-                <div>
-                  <div class="residence-price">$966,356</div>
-                  <h3 class="residence-name">Garden City Asset</h3>
-                </div>
-                <div class="residence-rating">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                    <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
-                  </svg>
-                  <span>4.9</span>
-                </div>
-              </div>
-              <p class="residence-location">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M7 1a4 4 0 0 1 4 4c0 3-4 8-4 8S3 8 3 5a4 4 0 0 1 4-4z" stroke="currentColor" stroke-width="1.5"/>
-                  <circle cx="7" cy="5" r="1.5" fill="currentColor"/>
-                </svg>
-                Downtown, Lima - Peru
-              </p>
-              <div class="residence-features">
-                <span class="feature">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <rect x="2" y="2" width="12" height="12" stroke="currentColor" stroke-width="1.5"/>
-                  </svg>
-                  3 Beds
-                </span>
-                <span class="feature">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
-                  </svg>
-                  2 Baths
-                </span>
-                <span class="feature">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M2 2h12v12H2z" stroke="currentColor" stroke-width="1.5"/>
-                  </svg>
-                  1,850 sqft
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div class="residence-card" data-category="penthouse">
-            <div class="residence-image">
-              <img src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Luxurious House">
-              <button class="residence-favorite">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M10 17.5l-6.5-6.5a4.5 4.5 0 1 1 6.5-6.5 4.5 4.5 0 1 1 6.5 6.5L10 17.5z" stroke="currentColor" stroke-width="2"/>
-                </svg>
-              </button>
-            </div>
-            <div class="residence-info">
-              <div class="residence-header">
-                <div>
-                  <div class="residence-price">$1,235,159</div>
-                  <h3 class="residence-name">Gables Luxurious House</h3>
-                </div>
-                <div class="residence-rating">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                    <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
-                  </svg>
-                  <span>5.0</span>
-                </div>
-              </div>
-              <p class="residence-location">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M7 1a4 4 0 0 1 4 4c0 3-4 8-4 8S3 8 3 5a4 4 0 0 1 4-4z" stroke="currentColor" stroke-width="1.5"/>
-                  <circle cx="7" cy="5" r="1.5" fill="currentColor"/>
-                </svg>
-                San Isidro, Lima - Peru
-              </p>
-              <div class="residence-features">
-                <span class="feature">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <rect x="2" y="2" width="12" height="12" stroke="currentColor" stroke-width="1.5"/>
-                  </svg>
-                  5 Beds
-                </span>
-                <span class="feature">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
-                  </svg>
-                  4 Baths
-                </span>
-                <span class="feature">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M2 2h12v12H2z" stroke="currentColor" stroke-width="1.5"/>
-                  </svg>
-                  3,200 sqft
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="view-all-container">
-          <button class="btn-view-all">
-            View All Properties
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </button>
-        </div>
+<section id="residences" class="residences">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-header-content">
+        <span class="section-label">
+          <span class="label-line"></span>
+          BEST CHOICE
+        </span>
+        <h2 class="section-title">Popular Residences</h2>
+        <p class="section-description">Explore premium properties in Faridabad, India</p>
       </div>
-    </section>
+
+```
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All Properties</button>
+    <button class="filter-btn" data-filter="villa">Villas</button>
+    <button class="filter-btn" data-filter="apartment">Apartments</button>
+    <button class="filter-btn" data-filter="penthouse">Penthouses</button>
+  </div>
+</div>
+
+<div class="residences-grid">
+
+  <!-- VILLA 1 -->
+  <div class="residence-card" data-category="villa">
+    <div class="residence-image">
+      <img src="https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800">
+      <div class="residence-badge">Featured</div>
+    </div>
+
+    <div class="residence-info">
+      <div class="residence-header">
+        <div>
+          <div class="residence-price">₹2.3 Cr</div>
+          <h3 class="residence-name">Green Valley Luxury Villa</h3>
+        </div>
+        <div class="residence-rating">⭐ 4.8</div>
+      </div>
+
+      <p class="residence-location">
+        Sector 21C, Faridabad - India
+      </p>
+
+      <div class="residence-features">
+        <span class="feature">4 Beds</span>
+        <span class="feature">3 Baths</span>
+        <span class="feature">2800 sqft</span>
+      </div>
+
+      <button class="btn-details" onclick="sendDetails(this)">Get Details</button>
+    </div>
+  </div>
+
+  <!-- VILLA 2 -->
+  <div class="residence-card" data-category="villa">
+    <div class="residence-image">
+      <img src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=800">
+    </div>
+
+    <div class="residence-info">
+      <div class="residence-header">
+        <div>
+          <div class="residence-price">₹2.8 Cr</div>
+          <h3 class="residence-name">Royal Palm Villa</h3>
+        </div>
+        <div class="residence-rating">⭐ 4.9</div>
+      </div>
+
+      <p class="residence-location">
+        Sector 46, Faridabad - India
+      </p>
+
+      <div class="residence-features">
+        <span class="feature">5 Beds</span>
+        <span class="feature">4 Baths</span>
+        <span class="feature">3500 sqft</span>
+      </div>
+
+      <button class="btn-details" onclick="sendDetails(this)">Get Details</button>
+    </div>
+  </div>
+
+  <!-- APARTMENT 1 -->
+  <div class="residence-card" data-category="apartment">
+    <div class="residence-image">
+      <img src="https://images.pexels.com/photos/2581922/pexels-photo-2581922.jpeg?auto=compress&cs=tinysrgb&w=800">
+      <div class="residence-badge special">Hot Deal</div>
+    </div>
+
+    <div class="residence-info">
+      <div class="residence-header">
+        <div>
+          <div class="residence-price">₹78 Lakh</div>
+          <h3 class="residence-name">Omaxe Heights Apartment</h3>
+        </div>
+        <div class="residence-rating">⭐ 4.7</div>
+      </div>
+
+      <p class="residence-location">
+        Sector 79, Faridabad - India
+      </p>
+
+      <div class="residence-features">
+        <span class="feature">3 Beds</span>
+        <span class="feature">2 Baths</span>
+        <span class="feature">1500 sqft</span>
+      </div>
+
+      <button class="btn-details" onclick="sendDetails(this)">Get Details</button>
+    </div>
+  </div>
+
+  <!-- APARTMENT 2 -->
+  <div class="residence-card" data-category="apartment">
+    <div class="residence-image">
+      <img src="https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=800">
+    </div>
+
+    <div class="residence-info">
+      <div class="residence-header">
+        <div>
+          <div class="residence-price">₹85 Lakh</div>
+          <h3 class="residence-name">BPTP Parklands</h3>
+        </div>
+        <div class="residence-rating">⭐ 4.6</div>
+      </div>
+
+      <p class="residence-location">
+        Sector 75, Faridabad - India
+      </p>
+
+      <div class="residence-features">
+        <span class="feature">3 Beds</span>
+        <span class="feature">3 Baths</span>
+        <span class="feature">1700 sqft</span>
+      </div>
+
+      <button class="btn-details" onclick="sendDetails(this)">Get Details</button>
+    </div>
+  </div>
+
+  <!-- APARTMENT 3 -->
+  <div class="residence-card" data-category="apartment">
+    <div class="residence-image">
+      <img src="https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?auto=compress&cs=tinysrgb&w=800">
+    </div>
+
+    <div class="residence-info">
+      <div class="residence-header">
+        <div>
+          <div class="residence-price">₹92 Lakh</div>
+          <h3 class="residence-name">Puri Pranayam</h3>
+        </div>
+        <div class="residence-rating">⭐ 4.8</div>
+      </div>
+
+      <p class="residence-location">
+        Sector 82, Faridabad - India
+      </p>
+
+      <div class="residence-features">
+        <span class="feature">2 Beds</span>
+        <span class="feature">2 Baths</span>
+        <span class="feature">1200 sqft</span>
+      </div>
+
+      <button class="btn-details" onclick="sendDetails(this)">Get Details</button>
+    </div>
+  </div>
+
+  <!-- PENTHOUSE 1 -->
+  <div class="residence-card" data-category="penthouse">
+    <div class="residence-image">
+      <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800">
+    </div>
+
+    <div class="residence-info">
+      <div class="residence-header">
+        <div>
+          <div class="residence-price">₹3.6 Cr</div>
+          <h3 class="residence-name">Skyline Penthouse</h3>
+        </div>
+        <div class="residence-rating">⭐ 5.0</div>
+      </div>
+
+      <p class="residence-location">
+        Sector 88, Faridabad - India
+      </p>
+
+      <div class="residence-features">
+        <span class="feature">4 Beds</span>
+        <span class="feature">4 Baths</span>
+        <span class="feature">4200 sqft</span>
+      </div>
+
+      <button class="btn-details" onclick="sendDetails(this)">Get Details</button>
+    </div>
+  </div>
+
+  <!-- PENTHOUSE 2 -->
+  <div class="residence-card" data-category="penthouse">
+    <div class="residence-image">
+      <img src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=800">
+    </div>
+
+    <div class="residence-info">
+      <div class="residence-header">
+        <div>
+          <div class="residence-price">₹4.1 Cr</div>
+          <h3 class="residence-name">Elite Roof Penthouse</h3>
+        </div>
+        <div class="residence-rating">⭐ 4.9</div>
+      </div>
+
+      <p class="residence-location">
+        Sector 81, Faridabad - India
+      </p>
+
+      <div class="residence-features">
+        <span class="feature">5 Beds</span>
+        <span class="feature">5 Baths</span>
+        <span class="feature">4800 sqft</span>
+      </div>
+
+      <button class="btn-details" onclick="sendDetails(this)">Get Details</button>
+    </div>
+  </div>
+
+</div>
+
+<div class="view-all-container">
+  <button class="btn-view-all">
+    View All Properties
+  </button>
+</div>
+
+  </div>
+</section>
 
     <!-- Value Section -->
     <section id="value" class="value-section">
@@ -436,6 +489,91 @@
         </div>
       </div>
     </section>
+
+    <!-- Our services -->
+     <section class="services">
+
+<div class="container">
+
+<h2>Our Services</h2>
+
+<p class="subtitle">
+Comprehensive real estate solutions tailored to meet your every need,
+from buying to selling and everything in between.
+</p>
+
+<div class="service-grid">
+
+<!-- Card 1 -->
+<div class="service-card">
+<div class="icon">
+<i class="fa-solid fa-house"></i>
+</div>
+<h3>Property Buying</h3>
+<p>
+Find your perfect home with our comprehensive buying assistance and expert negotiations.
+</p>
+</div>
+
+<!-- Card 2 -->
+<div class="service-card active">
+<div class="icon">
+<i class="fa-solid fa-key"></i>
+</div>
+<h3>Property Selling</h3>
+<p>
+Maximize your property's value with our strategic marketing and sales expertise.
+</p>
+</div>
+
+<!-- Card 3 -->
+<div class="service-card">
+<div class="icon">
+<i class="fa-solid fa-building"></i>
+</div>
+<h3>Rentals</h3>
+<p>
+Discover quality rental properties or find reliable tenants for your investment.
+</p>
+</div>
+
+<!-- Card 4 -->
+<div class="service-card">
+<div class="icon">
+<i class="fa-solid fa-clipboard"></i>
+</div>
+<h3>Property Management</h3>
+<p>
+Professional management services to maintain and grow your property investments.
+</p>
+</div>
+
+<!-- Card 5 -->
+<div class="service-card">
+<div class="icon">
+<i class="fa-solid fa-chart-line"></i>
+</div>
+<h3>Investment Advisory</h3>
+<p>
+Strategic advice to help you make the best real estate investment decisions.
+</p>
+</div>
+
+<!-- Card 6 -->
+<div class="service-card">
+<div class="icon">
+<i class="fa-solid fa-shield-halved"></i>
+</div>
+<h3>Legal Assistance</h3>
+<p>
+Expert legal guidance to ensure safe and secure property transactions.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials">
