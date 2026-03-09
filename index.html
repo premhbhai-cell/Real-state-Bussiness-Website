@@ -1,0 +1,716 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homex - Premium Real Estate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo">
+            <div class="logo-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M16 3L3 11V28H13V20H19V28H29V11L16 3Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <span class="logo-text">Homex</span>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#residences" class="nav-link">Residences</a></li>
+            <li><a href="#value" class="nav-link">Value</a></li>
+            <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <button class="btn-primary subscribe-btn">Get Started</button>
+          <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-background">
+      
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="hero-badge">
+              <span class="badge-dot"></span>
+              <span>Trusted by 10,000+ customers</span>
+            </div>
+            <h1 class="hero-title">
+              <span class="title-accent">Discover</span>
+              Most Suitable
+              <span class="title-gradient">Property</span>
+            </h1>
+            <p class="hero-description">
+              Find a variety of properties that suit you very easily. Forget all difficulties in finding a residence for you with our advanced search and recommendation system.
+            </p>
+
+            <div class="search-box">
+              <div class="search-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM18 18l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <input type="text" placeholder="Search by location, property type, or price range...">
+              <button class="btn-search">
+                <span>Search</span>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M1 8h14M9 2l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+
+            <div class="stats">
+              <div class="stat-item">
+                <h3 data-count="9000">0K+</h3>
+                <p>Premium Properties</p>
+              </div>
+              <div class="stat-item">
+                <h3 data-count="2000">0K+</h3>
+                <p>Happy Customers</p>
+              </div>
+              <div class="stat-item">
+                <h3 data-count="28000">0K+</h3>
+                <p>Award Winning</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <div class="hero-image-wrapper">
+              <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern Luxury House">
+              <div class="property-card-float">
+                <div class="property-card-icon">🏡</div>
+                <div class="property-card-content">
+                  <h4>Modern Villa</h4>
+                  <p>$850,000</p>
+                </div>
+                <div class="property-card-badge">New</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+      <div class="container">
+        <div class="partners-content">
+          <p class="partners-label">Trusted by leading real estate companies</p>
+          <div class="partners-grid">
+            <div class="partner-logo">
+              <svg viewBox="0 0 120 30">
+                <text x="0" y="20" class="partner-text">PROLOGIS</text>
+              </svg>
+            </div>
+            <div class="partner-logo">
+              <svg viewBox="0 0 120 30">
+                <text x="0" y="20" class="partner-text">TOWER</text>
+              </svg>
+            </div>
+            <div class="partner-logo">
+              <svg viewBox="0 0 120 30">
+                <text x="0" y="20" class="partner-text">EQUINIX</text>
+              </svg>
+            </div>
+            <div class="partner-logo">
+              <svg viewBox="0 0 120 30">
+                <text x="0" y="20" class="partner-text">REALTY</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Residences Section -->
+    <section id="residences" class="residences">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header-content">
+            <span class="section-label">
+              <span class="label-line"></span>
+              BEST CHOICE
+            </span>
+            <h2 class="section-title">Popular Residences</h2>
+            <p class="section-description">Explore our handpicked selection of premium properties in prime locations</p>
+          </div>
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All Properties</button>
+            <button class="filter-btn" data-filter="villa">Villas</button>
+            <button class="filter-btn" data-filter="apartment">Apartments</button>
+            <button class="filter-btn" data-filter="penthouse">Penthouses</button>
+          </div>
+        </div>
+
+        <div class="residences-grid">
+          <div class="residence-card" data-category="villa">
+            <div class="residence-image">
+              <img src="https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Private Garden">
+              <div class="residence-badge">Featured</div>
+              <button class="residence-favorite">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M10 17.5l-6.5-6.5a4.5 4.5 0 1 1 6.5-6.5 4.5 4.5 0 1 1 6.5 6.5L10 17.5z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </button>
+            </div>
+            <div class="residence-info">
+              <div class="residence-header">
+                <div>
+                  <div class="residence-price">$847,043</div>
+                  <h3 class="residence-name">Aliva Private Garden</h3>
+                </div>
+                <div class="residence-rating">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+                  </svg>
+                  <span>4.8</span>
+                </div>
+              </div>
+              <p class="residence-location">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M7 1a4 4 0 0 1 4 4c0 3-4 8-4 8S3 8 3 5a4 4 0 0 1 4-4z" stroke="currentColor" stroke-width="1.5"/>
+                  <circle cx="7" cy="5" r="1.5" fill="currentColor"/>
+                </svg>
+                Miraflores, Lima - Peru
+              </p>
+              <div class="residence-features">
+                <span class="feature">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <rect x="2" y="2" width="12" height="12" stroke="currentColor" stroke-width="1.5"/>
+                  </svg>
+                  4 Beds
+                </span>
+                <span class="feature">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
+                  </svg>
+                  3 Baths
+                </span>
+                <span class="feature">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M2 2h12v12H2z" stroke="currentColor" stroke-width="1.5"/>
+                  </svg>
+                  2,400 sqft
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="residence-card" data-category="apartment">
+            <div class="residence-image">
+              <img src="https://images.pexels.com/photos/2581922/pexels-photo-2581922.jpeg?auto=compress&cs=tinysrgb&w=800" alt="City Asset">
+              <div class="residence-badge special">Hot Deal</div>
+              <button class="residence-favorite">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M10 17.5l-6.5-6.5a4.5 4.5 0 1 1 6.5-6.5 4.5 4.5 0 1 1 6.5 6.5L10 17.5z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </button>
+            </div>
+            <div class="residence-info">
+              <div class="residence-header">
+                <div>
+                  <div class="residence-price">$966,356</div>
+                  <h3 class="residence-name">Garden City Asset</h3>
+                </div>
+                <div class="residence-rating">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+                  </svg>
+                  <span>4.9</span>
+                </div>
+              </div>
+              <p class="residence-location">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M7 1a4 4 0 0 1 4 4c0 3-4 8-4 8S3 8 3 5a4 4 0 0 1 4-4z" stroke="currentColor" stroke-width="1.5"/>
+                  <circle cx="7" cy="5" r="1.5" fill="currentColor"/>
+                </svg>
+                Downtown, Lima - Peru
+              </p>
+              <div class="residence-features">
+                <span class="feature">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <rect x="2" y="2" width="12" height="12" stroke="currentColor" stroke-width="1.5"/>
+                  </svg>
+                  3 Beds
+                </span>
+                <span class="feature">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
+                  </svg>
+                  2 Baths
+                </span>
+                <span class="feature">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M2 2h12v12H2z" stroke="currentColor" stroke-width="1.5"/>
+                  </svg>
+                  1,850 sqft
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="residence-card" data-category="penthouse">
+            <div class="residence-image">
+              <img src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Luxurious House">
+              <button class="residence-favorite">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M10 17.5l-6.5-6.5a4.5 4.5 0 1 1 6.5-6.5 4.5 4.5 0 1 1 6.5 6.5L10 17.5z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </button>
+            </div>
+            <div class="residence-info">
+              <div class="residence-header">
+                <div>
+                  <div class="residence-price">$1,235,159</div>
+                  <h3 class="residence-name">Gables Luxurious House</h3>
+                </div>
+                <div class="residence-rating">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+                  </svg>
+                  <span>5.0</span>
+                </div>
+              </div>
+              <p class="residence-location">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M7 1a4 4 0 0 1 4 4c0 3-4 8-4 8S3 8 3 5a4 4 0 0 1 4-4z" stroke="currentColor" stroke-width="1.5"/>
+                  <circle cx="7" cy="5" r="1.5" fill="currentColor"/>
+                </svg>
+                San Isidro, Lima - Peru
+              </p>
+              <div class="residence-features">
+                <span class="feature">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <rect x="2" y="2" width="12" height="12" stroke="currentColor" stroke-width="1.5"/>
+                  </svg>
+                  5 Beds
+                </span>
+                <span class="feature">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
+                  </svg>
+                  4 Baths
+                </span>
+                <span class="feature">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M2 2h12v12H2z" stroke="currentColor" stroke-width="1.5"/>
+                  </svg>
+                  3,200 sqft
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="view-all-container">
+          <button class="btn-view-all">
+            View All Properties
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value Section -->
+    <section id="value" class="value-section">
+      <div class="container">
+        <div class="value-content">
+          <div class="value-image">
+            <div class="value-image-wrapper">
+              <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern Architecture">
+              <div class="value-decoration decoration-1"></div>
+              <div class="value-decoration decoration-2"></div>
+            </div>
+          </div>
+
+          <div class="value-text">
+            <span class="section-label">
+              <span class="label-line"></span>
+              OUR VALUE
+            </span>
+            <h2 class="section-title">Value We Give To You</h2>
+            <p class="value-description">
+              We always ready to help by providing the best services for you. We believe a good place to live can make your life better and we are here to guide you every step of the way.
+            </p>
+
+            <div class="value-items">
+              <div class="value-item" data-index="1">
+                <div class="value-item-header">
+                  <div class="value-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 2L2 7v10c0 5.55 3.84 10.74 10 12 6.16-1.26 10-6.45 10-12V7l-10-5z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                  </div>
+                  <h4>Best interest rates on the market</h4>
+                  <button class="value-toggle">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                      <path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="value-item-content">
+                  <p>We provide competitive interest rates and flexible financing options to help you achieve your property ownership goals faster and more affordably.</p>
+                </div>
+              </div>
+
+              <div class="value-item" data-index="2">
+                <div class="value-item-header">
+                  <div class="value-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="2"/>
+                      <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                  </div>
+                  <h4>Prevent unstable prices</h4>
+                  <button class="value-toggle">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                      <path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="value-item-content">
+                  <p>Our pricing strategy ensures stability and transparency. We lock in prices for qualified buyers, protecting you from market volatility and unexpected increases.</p>
+                </div>
+              </div>
+
+              <div class="value-item" data-index="3">
+                <div class="value-item-header">
+                  <div class="value-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12V2H6C3.79 2 2 3.79 2 6v12c0 2.21 1.79 4 4 4h14v-8h-2z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                  </div>
+                  <h4>Best prices on the market</h4>
+                  <button class="value-toggle">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                      <path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="value-item-content">
+                  <p>Our transparent pricing model means no hidden fees or surprise charges. You get fair market value with detailed breakdowns of all costs involved in your purchase.</p>
+                </div>
+              </div>
+
+              <div class="value-item" data-index="4">
+                <div class="value-item-header">
+                  <div class="value-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <rect x="3" y="11" width="18" height="11" rx="2" stroke="currentColor" stroke-width="2"/>
+                      <path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                  </div>
+                  <h4>Security of your data</h4>
+                  <button class="value-toggle">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                      <path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="value-item-content">
+                  <p>Your personal and financial information is protected with bank-grade encryption and security protocols. We comply with all data protection regulations to keep your information safe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">
+            <span class="label-line"></span>
+            TESTIMONIALS
+          </span>
+          <h2 class="section-title">What Our Clients Say</h2>
+          <p class="section-description">Real stories from real people who found their dream homes with us</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">"Homex made my dream of owning a home come true. The process was smooth, transparent, and their team was incredibly helpful throughout. I couldn't be happier with my new villa!"</p>
+            <div class="testimonial-author">
+              <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Sarah Johnson">
+              <div>
+                <h4>Sarah Johnson</h4>
+                <p>Villa Owner</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">"Best real estate experience ever! The platform is user-friendly, and the customer service is outstanding. They found me the perfect apartment within my budget."</p>
+            <div class="testimonial-author">
+              <img src="https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Michael Chen">
+              <div>
+                <h4>Michael Chen</h4>
+                <p>Apartment Owner</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0l2.5 5.5L16 6.5l-4 4 1 5.5-5-3-5 3 1-5.5-4-4 5.5-1L8 0z"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">"Professional, reliable, and trustworthy. Homex exceeded all my expectations. The virtual tours and detailed information made decision-making so much easier."</p>
+            <div class="testimonial-author">
+              <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Emma Rodriguez">
+              <div>
+                <h4>Emma Rodriguez</h4>
+                <p>Penthouse Owner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-image">
+            <div class="contact-image-wrapper">
+              <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Contact">
+              <div class="contact-decoration"></div>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <span class="section-label">
+              <span class="label-line"></span>
+              CONTACT US
+            </span>
+            <h2 class="section-title">Easy to Contact us</h2>
+            <p class="contact-description">
+              Is there a problem finding your dream home? Need a guide in buying first house? or need a consultation on residential issues? just contact us. We're here to help 24/7.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="contact-method-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="contact-method-info">
+                  <h4>Call</h4>
+                  <p>021 123 145 14</p>
+                  <button class="btn-outline">Call Now</button>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="contact-method-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="contact-method-info">
+                  <h4>Chat</h4>
+                  <p>Live Support</p>
+                  <button class="btn-outline">Chat Now</button>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="contact-method-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M23 7l-10 7L3 7m20-2v14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h18a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="contact-method-info">
+                  <h4>Email</h4>
+                  <p>info@Homex.com</p>
+                  <button class="btn-outline">Send Email</button>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="contact-method-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M17.5 6.5h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div class="contact-method-info">
+                  <h4>Social Media</h4>
+                  <p>@Homexrealty</p>
+                  <button class="btn-outline">Follow Us</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-background"></div>
+      <div class="container">
+        <div class="cta-content">
+          <h2>Get Started with Homex</h2>
+          <p>Subscribe and find super attractive price quotes from us. Find your residence soon and start your journey to homeownership today</p>
+          <div class="cta-form">
+            <input type="email" placeholder="Enter your email address">
+            <button class="btn-primary btn-large">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <div class="logo">
+              <div class="logo-icon">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                  <path d="M16 3L3 11V28H13V20H19V28H29V11L16 3Z" fill="currentColor"/>
+                </svg>
+              </div>
+              <span class="logo-text">Homex</span>
+            </div>
+            <p>Our vision is to make all people the best place to live for them. We provide the best service to help you find your dream home.</p>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M20 10c0-5.523-4.477-10-10-10S0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V10h2.773l-.443 2.89h-2.33v6.988C16.343 19.128 20 14.991 20 10z"/>
+                </svg>
+              </a>
+              <a href="#" aria-label="Twitter">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                </svg>
+              </a>
+              <a href="#" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M10 0C7.284 0 6.944.012 5.877.06 4.813.11 4.086.278 3.45.525a4.92 4.92 0 00-1.772 1.153A4.92 4.92 0 00.525 3.45C.278 4.086.11 4.813.06 5.877.012 6.944 0 7.284 0 10s.012 3.056.06 4.123c.05 1.064.218 1.791.465 2.427a4.92 4.92 0 001.153 1.772 4.92 4.92 0 001.772 1.153c.636.247 1.363.415 2.427.465C6.944 19.988 7.284 20 10 20s3.056-.012 4.123-.06c1.064-.05 1.791-.218 2.427-.465a4.92 4.92 0 001.772-1.153 4.92 4.92 0 001.153-1.772c.247-.636.415-1.363.465-2.427.048-1.067.06-1.407.06-4.123s-.012-3.056-.06-4.123c-.05-1.064-.218-1.791-.465-2.427a4.92 4.92 0 00-1.153-1.772A4.92 4.92 0 0016.55.525C15.914.278 15.187.11 14.123.06 13.056.012 12.716 0 10 0zm0 1.802c2.67 0 2.987.01 4.04.058.976.045 1.505.207 1.858.344.466.182.8.399 1.15.748.35.35.566.684.748 1.15.137.353.3.882.344 1.857.048 1.054.058 1.37.058 4.041 0 2.67-.01 2.986-.058 4.04-.045.976-.207 1.505-.344 1.858a3.097 3.097 0 01-.748 1.15c-.35.35-.684.566-1.15.748-.353.137-.882.3-1.857.344-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-.976-.045-1.505-.207-1.858-.344a3.097 3.097 0 01-1.15-.748 3.098 3.098 0 01-.748-1.15c-.137-.353-.3-.882-.344-1.857-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.045-.976.207-1.505.344-1.858.182-.466.399-.8.748-1.15.35-.35.684-.566 1.15-.748.353-.137.882-.3 1.857-.344 1.054-.048 1.37-.058 4.041-.058zM10 4.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm6.538-8.671a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h4>Information</h4>
+            <ul>
+              <li><a href="#">145 New York, FL 4571, USA</a></li>
+              <li><a href="#">Property Listings</a></li>
+              <li><a href="#">Services & Pricing</a></li>
+              <li><a href="#">Featured Properties</a></li>
+              <li><a href="#">About Homex</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">How it Works</a></li>
+              <li><a href="#">Capital & Investment</a></li>
+              <li><a href="#">Security & Privacy</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Partners</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Support Center</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Homex. All rights reserved. Made with care for your dream home.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="Scroll to top">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    
+<script src="main.js"> </script>
+  </body>
+</html>
